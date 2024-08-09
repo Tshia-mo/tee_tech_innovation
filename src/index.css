@@ -1,15 +1,40 @@
 li {
   list-style: none;
 }
-.pricing1,
-.pricing2,
+.pricing1 {
+  width: 280px;
+  height: 280px;
+  border: 1px solid #ffff;
+  box-shadow: 0px 0px 20px 0px rgba(204, 207, 208, 0.76);
+  padding: 10px;
+  margin: 20px;
+}
+.pricing2 {
+  width: 280px;
+  height: 280px;
+  border: 1px solid #ffff;
+  box-shadow: 0px 0px 20px 0px rgba(204, 207, 208, 0.76);
+  padding: 10px;
+  margin: 20px;
+}
 .pricing3 {
-  border: 1px solid black;
+  width: 280px;
+  height: 280px;
+  border: 1px solid #ffff;
+  box-shadow: 0px 0px 20px 0px rgba(204, 207, 208, 0.76);
+  padding: 10px;
+  margin: 20px;
 }
 
-.hero {
+.hero,
+.about {
   background: rgb(197, 194, 194);
 }
 h2 {
   font-size: 20px;
+}
+.box {
+  border: 1px solid rgb(4, 0, 255);
+  background: rgb(55, 170, 247);
+  border-radius: 5%;
 }
