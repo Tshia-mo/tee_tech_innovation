@@ -25,7 +25,7 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles/portfolio.css" />
+    <link rel="stylesheet" href="src/index.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tee Tech Innovation</title>
   </head>
@@ -69,8 +69,10 @@
     <h4 id="home" class="border text-center m-3">Tee Tech Innovation</h4>
     <div class="container p-5">
       <div class="row">
-        <div class="col-md-6"></div>
-        <div class="col-sm-3">
+        <div class="col-md-9">
+          <img src="src/tech world.avif" class="d-flex img-fluid" />
+        </div>
+        <div class="col-md-3 hero">
           <h3>Welcome</h3>
           <h1>Unleashing your online potential</h1>
           <h2>Custom web design to elevate your businesses online presents</h2>
@@ -98,7 +100,7 @@
     <div id="services" class="container text-center p-5">
       <h1>OUR SERVICES</h1>
       <div class="row p-5">
-        <div class="col-md-4 pricing">
+        <div class="col-md-4 pricing1">
           <h1 class="text-center">Personal Website</h1>
           <h1 class="text-center">R2500</h1>
           <ul>
@@ -107,7 +109,7 @@
             <li>1 Professional email</li>
           </ul>
         </div>
-        <div class="col-md-4 pricing">
+        <div class="col-md-4 pricing2">
           <h1 class="text-center">Professional Website</h1>
           <h1>R3000</h1>
           <ul>
@@ -117,7 +119,7 @@
             <li>Virtual Business Card</li>
           </ul>
         </div>
-        <div class="col-md-4 pricing">
+        <div class="col-md-4 pricing3">
           <h1 class="text-center">Professional Website</h1>
           <h1>R3000</h1>
           <ul>
@@ -129,30 +131,98 @@
         </div>
       </div>
     </div>
-    <div id="contact" class="container">
-      <h1 class="text-center">CONTACT US</h1>
-      <div class="w-full lg:px-48 md:px-20 px-8 lg:mt-8 mt-4">
-        <input
-          type="text"
-          placeholder="Email"
-          class="w-full border border-grey-300 rounded-sm h-9 pl-4"
-        />
+    <div class="container contact">
+      <div class="row p-4">
+        <div class="col-md-6">
+          <h1>Contact Information</h1>
+          <div class="pagelayer-address-holder p-3">
+            <span class="pagelayer-address-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+            <span class="pagelayer-address">Fleurhof, Roodepoort</span>
+          </div>
+          <div class="pagelayer-email-holder p-3">
+            <span class="pagelayer-email-icon">
+              <i class="fas fa-envelope"></i>
+            </span>
+            <span class="pagelayer-email">teetechinnovation@outlook.com</span>
+          </div>
+          <div class="pagelayer-phone-holder p-3">
+            <span class="pagelayer-phone-icon">
+              <i class="fas fa-phone-square-alt"></i>
+            </span>
+            <span class="pagelayer-phone">+27 83 607 4964</span>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h1 class="sub-head">Get In Touch</h1>
+          <h1 class="sub-head">Drop Us A Line</h1>
+          <form
+            id="contact-form"
+            class="pagelayer-contact-form"
+            action="https://api.web3forms.com/submit"
+            method="POST"
+          >
+            <div class="ContactForm">
+              <div class="inputBox">
+                <input
+                  type="text"
+                  placeholder="Name"
+                  name="name"
+                  required="required"
+                />
+              </div>
+              <div class="inputBox">
+                <input
+                  type="email"
+                  placeholder="Email"
+                  name="email"
+                  required="required"
+                />
+              </div>
+              <div class="inputBox">
+                <input
+                  type="text"
+                  placeholder="Phone"
+                  name="phone"
+                  required="required"
+                />
+              </div>
+              <div class="inputBox">
+                <input
+                  type="text"
+                  placeholder="Subject"
+                  name="subject"
+                  required="required"
+                />
+              </div>
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="Message"
+                required
+              ></textarea>
+              <input
+                type="hidden"
+                name="access_key"
+                value="3aefe859-1c16-42f9-ad3a-570d0156d041"
+              />
+              <div class="pagelayer-contact-submit-holder">
+                <button type="submit">
+                  <i
+                    class="fa fa-circle-o-notch fa-spin"
+                    style="display: none; margin-right: 5px"
+                  ></i>
+
+                  <span>Submit</span>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
     <div class="contact-container text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <h2 class="subhead">GET IN TOUCH</h2>
-            <div class="pagelayer-email-holder p-3">
-              <span class="pagelayer-email-icon"
-                ><i class="fas fa-envelope"></i
-              ></span>
-              <span class="pagelayer-email">teetechinnovation@outlook.com</span>
-            </div>
-          </div>
-        </div>
-      </div>
       <div class="social-links d-flex justify-content-center">
         <a
           href="https://www.facebook.com/S K Online Hampermarket"

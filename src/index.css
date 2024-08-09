@@ -1,0 +1,15 @@
+li {
+  list-style: none;
+}
+.pricing1,
+.pricing2,
+.pricing3 {
+  border: 1px solid black;
+}
+
+.hero {
+  background: rgb(197, 194, 194);
+}
+h2 {
+  font-size: 20px;
+}
