@@ -27,8 +27,8 @@ li {
 }
 
 .hero,
-.about {
-  background: rgb(197, 194, 194);
+.overall-container {
+  background: rgb(247, 244, 244);
 }
 h2 {
   font-size: 20px;
@@ -37,4 +37,14 @@ h2 {
   border: 1px solid rgb(4, 0, 255);
   background: rgb(55, 170, 247);
   border-radius: 5%;
+}
+
+.hero-section {
+  display: flex;
+  gap: 0;
+  padding: 153px;
+}
+
+.hero-section img {
+  width: 700px;
 }
