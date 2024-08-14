@@ -1,3 +1,10 @@
+.heading {
+  border: 2px solid black;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
 li {
   list-style: none;
 }
@@ -28,27 +35,30 @@ li {
 
 .hero,
 .overall-container {
-  background: rgb(247, 244, 244);
+  background: #e2e4ef;
 }
 h2 {
   font-size: 20px;
 }
 .box {
-  border: 1px solid rgb(4, 0, 255);
-  background: rgb(55, 170, 247);
+  border: 1px solid white;
+  background: #e2e4ef;
   border-radius: 5%;
 }
 
 .hero-section {
   display: flex;
   gap: 0;
-  padding: 153px;
+  width: 100%;
+  height: 90vh;
+  padding: 50px;
 }
 
 .hero-section img {
-  width: 700px;
+  max-width: 100%;
+  height: auto;
 }
 
 .about img {
-  width: 900px;
+  width: 100%;
 }
