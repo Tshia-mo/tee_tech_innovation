@@ -43,7 +43,7 @@ h2 {
 }
 .box {
   border: 1px solid white;
-  background: rgb(117, 227, 255);
+  background: #53e5ff;
   border-radius: 5%;
 }
 
@@ -67,4 +67,25 @@ h2 {
 .our-about h2 {
   padding: 5px;
   text-align: center;
+}
+
+.logo img {
+  height: 79px;
+  width: 60px;
+  object-fit: cover;
+}
+.navbar {
+  background: #eaeaec;
+}
+.inputBox {
+  width: 100%;
+  display: inline-block;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  border-radius: 1px solid black;
+}
+button {
+  background: #53e5ff;
 }
