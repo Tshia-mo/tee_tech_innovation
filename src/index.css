@@ -1,9 +1,13 @@
+body {
+  transition: all 0.5s ease-in-out;
+}
 .heading {
   border: 2px solid black;
-  border-radius: 20px;
+  border-radius: 10px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  padding: 5px;
 }
 li {
   list-style: none;
@@ -70,12 +74,13 @@ h2 {
 }
 
 .logo img {
-  height: 79px;
-  width: 60px;
+  height: 75px;
+  width: 220px;
   object-fit: cover;
 }
 .navbar {
   background: #eaeaec;
+  padding: 0px;
 }
 .inputBox {
   width: 100%;
@@ -84,8 +89,14 @@ h2 {
   padding-right: 0px;
   padding-bottom: 5px;
   padding-left: 0px;
-  border-radius: 1px solid black;
+  border-radius: 1px solid blue;
 }
 button {
   background: #53e5ff;
+}
+.bars {
+  text-align: end;
+}
+.text-container {
+  text-align: center;
 }
