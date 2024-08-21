@@ -8,6 +8,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 5px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 li {
   list-style: none;
@@ -44,6 +45,7 @@ li {
 }
 h2 {
   font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .box {
   border: 1px solid white;
@@ -56,7 +58,7 @@ h2 {
   gap: 0;
   width: 100%;
   height: 90vh;
-  padding: 50px;
+  padding: 58px;
 }
 
 .hero-section img {
@@ -67,6 +69,7 @@ h2 {
 .our-about p {
   font-size: 18px;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .our-about h2 {
   padding: 5px;
@@ -99,4 +102,7 @@ button {
 }
 .text-container {
   text-align: center;
+}
+.social-links {
+  gap: 10px;
 }
