@@ -1,18 +1,22 @@
 .services {
   transition: all 0.5s ease-in-out;
 }
+body {
+  background: white;
+}
 .heading {
-  border: 2px solid #eaeaec;
+  border: 2px solid #002;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   padding: 5px;
   font-family: Playfair display;
   transition: all 0.3s ease-in-out;
+  color: #002;
 }
 
 #services .btn {
-  background: #eaeaec;
+  background: #002;
 }
 .hero h1 {
   font-family: Playfair display;
@@ -28,6 +32,8 @@ li {
   padding: 5px;
   margin-right: 17px;
   gap: 5px;
+  background: #47b2e4;
+  color: white;
 }
 .pricing2 {
   width: 340px;
@@ -49,7 +55,7 @@ li {
 .hero,
 .overall-container,
 .overall-contact {
-  background: #eaeaec;
+  background: #47b2e4;
 }
 h2 {
   font-size: 20px;
@@ -57,7 +63,7 @@ h2 {
 }
 .box {
   border: 1px solid #eaeaec;
-  background: #eaeaec;
+  background: rgb(46, 46, 121);
 }
 
 .hero-section {
@@ -67,6 +73,7 @@ h2 {
   height: 90vh;
   padding: 55px;
   transition: all 0.5s ease-in-out;
+  color: #002;
 }
 
 .hero-section img {
@@ -81,8 +88,8 @@ h2 {
   }
 }
 .about {
-  background: #eaeaec;
-  transition: all 0.5s ease-in-out;
+  background: #444444;
+  transition-delay: 0.4s;
 }
 .about p {
   font-size: 18px;
@@ -97,24 +104,23 @@ h2 {
 }
 
 .logo img {
-  height: 75px;
-  width: 190px;
+  height: 60px;
+  width: 140px;
   object-fit: cover;
 }
 .navbar {
-  background: #eaeaec;
-  padding: 0px;
+  background: #002;
 }
 .navbar-toggler-icon {
   color: #47b2e4;
   background: #47b2e4;
 }
+nav ul {
+  float: right;
+}
 .inputBox {
   display: inline-block;
-  padding-top: 0px;
-  padding-right: 0px;
   padding-bottom: 5px;
-  padding-left: 0px;
   border-radius: 1px solid blue;
 }
 textarea {
@@ -128,9 +134,9 @@ button {
   width: 100%;
   border-radius: 10px;
 }
-.bars {
+/*.bars {
   text-align: end;
-}
+}*/
 .text-container {
   text-align: center;
 }

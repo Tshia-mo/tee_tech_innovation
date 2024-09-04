@@ -31,7 +31,7 @@
   </head>
   <body>
     <nav
-      class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-between"
+      class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-end"
     >
       <div class="container-fluid">
         <a class="logo" href="#">
@@ -49,7 +49,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav justify-content-between">
+          <ul class="nav justify-content-end">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#home"
                 >Home</a
@@ -217,41 +217,46 @@
                 method="POST"
               >
                 <div class="contactForm">
-                  <div class="inputBox d-flex">
+                  <div class="inputBox d-flex mb-3">
                     <input
                       type="text"
                       placeholder="Name*"
                       name="name"
-                      required="required"
+                      class="form-control"
+                      id="clientName"
                     />
                   </div>
-                  <div class="inputBox d-flex">
+                  <div class="inputBox d-flex mb-3">
                     <input
                       type="email"
                       placeholder="Email*"
                       name="email"
-                      required="required"
+                      id="emailAddress"
+                      class="form-control"
                     />
                   </div>
-                  <div class="inputBox d-flex">
+                  <div class="inputBox d-flex mb-3">
                     <input
                       type="text"
                       placeholder="Phone*"
                       name="phone"
                       required="required"
+                      class="form-control"
                     />
                   </div>
-                  <div class="inputBox d-flex">
+                  <div class="inputBox d-flex mb-3">
                     <input
                       type="text"
                       placeholder="Subject*"
                       name="subject"
                       required="required"
+                      class="form-control"
                     />
                   </div>
                   <textarea
+                    class="mb-3 form-control"
                     name="message"
-                    rows="6"
+                    rows="5"
                     placeholder="Message*"
                     required
                   ></textarea>
@@ -263,7 +268,7 @@
                   <div class="pagelayer-contact-submit-holder">
                     <button type="submit">
                       <i
-                        class="fa fa-circle-o-notch fa-spin"
+                        class="fa fa-circle-o-notch fa-spin form-control"
                         style="display: none; margin-right: 5px"
                       ></i>
 
