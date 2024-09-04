@@ -20,9 +20,6 @@
 li {
   list-style: none;
 }
-.overall-contact {
-  transition: all 0.5s ease-in-out;
-}
 .pricing1 {
   width: 340px;
   height: 530px;
@@ -61,7 +58,6 @@ h2 {
 .box {
   border: 1px solid #eaeaec;
   background: #eaeaec;
-  border-radius: 5%;
 }
 
 .hero-section {
@@ -109,8 +105,11 @@ h2 {
   background: #eaeaec;
   padding: 0px;
 }
+.navbar-toggler-icon {
+  color: #47b2e4;
+  background: #47b2e4;
+}
 .inputBox {
-  width: 100%;
   display: inline-block;
   padding-top: 0px;
   padding-right: 0px;
@@ -118,8 +117,16 @@ h2 {
   padding-left: 0px;
   border-radius: 1px solid blue;
 }
+textarea {
+  width: 100%;
+}
+input {
+  width: 100%;
+}
 button {
   background: #47b2e4;
+  width: 100%;
+  border-radius: 10px;
 }
 .bars {
   text-align: end;
@@ -128,7 +135,7 @@ button {
   text-align: center;
 }
 .social-links {
-  gap: 10px;
+  gap: 15px;
 }
 i {
   color: #47b2e4;
