@@ -5,18 +5,18 @@ body {
   background: white;
 }
 .heading {
-  border: 2px solid #002;
+  border: 2px solid #444;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   padding: 5px;
   font-family: Playfair display;
   transition: all 0.3s ease-in-out;
-  color: #002;
+  color: #47b2e4;
 }
 
 #services .btn {
-  background: #002;
+  background: rgb(46, 46, 121);
 }
 .hero h1 {
   font-family: Playfair display;
@@ -24,38 +24,47 @@ body {
 li {
   list-style: none;
 }
+h1 .pricing1,
+.pricing2,
+.pricing3 {
+  color: #002;
+}
 .pricing1 {
+  margin-top: 15px;
   width: 340px;
-  height: 530px;
+  height: 350px;
   border: 1px solid #ffff;
   box-shadow: 0px 0px 20px 0px rgba(204, 207, 208, 0.76);
   padding: 5px;
   margin-right: 17px;
   gap: 5px;
-  background: #47b2e4;
-  color: white;
+  background: rgba(204, 207, 208, 0.76);
 }
 .pricing2 {
+  margin-top: 15px;
   width: 340px;
-  height: 530px;
+  height: 350px;
   border: 1px solid #ffff;
   box-shadow: 0px 0px 20px 0px rgba(204, 207, 208, 0.76);
   padding: 5px;
   margin-right: 15px;
+  background: rgba(204, 207, 208, 0.76);
 }
 .pricing3 {
+  margin-top: 15px;
   width: 340px;
-  height: 530px;
+  height: 350px;
   border: 1px solid #ffff;
   box-shadow: 0px 0px 20px 0px rgba(204, 207, 208, 0.76);
   padding: 5px;
   margin-right: 15px;
+  background: rgba(204, 207, 208, 0.76);
 }
 
 .hero,
 .overall-container,
 .overall-contact {
-  background: #47b2e4;
+  background: #eaeaec;
 }
 h2 {
   font-size: 20px;
@@ -88,7 +97,6 @@ h2 {
   }
 }
 .about {
-  background: #444444;
   transition-delay: 0.4s;
 }
 .about p {
@@ -109,7 +117,7 @@ h2 {
   object-fit: cover;
 }
 .navbar {
-  background: #002;
+  background: rgb(46, 46, 121);
 }
 .navbar-toggler-icon {
   color: #47b2e4;
@@ -136,6 +144,7 @@ button {
 }
 /*.bars {
   text-align: end;
+  rgb(46, 46, 121)
 }*/
 .text-container {
   text-align: center;
