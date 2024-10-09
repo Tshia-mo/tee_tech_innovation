@@ -5,7 +5,7 @@ body {
   background: white;
 }
 .heading {
-  border: 2px solid #444;
+  border: 2px solid rgb(46, 46, 121);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -16,7 +16,8 @@ body {
 }
 
 #services .btn {
-  background: rgb(46, 46, 121);
+  color: rgb(46, 46, 121);
+  background: #47b2e4;
 }
 .hero h1 {
   font-family: Playfair display;
@@ -24,10 +25,10 @@ body {
 li {
   list-style: none;
 }
-h1 .pricing1,
-.pricing2,
-.pricing3 {
-  color: #002;
+.pricing1 h1,
+.pricing2 h1,
+.pricing3 h1 {
+  color: rgb(46, 46, 121);
 }
 .pricing1 {
   margin-top: 15px;
@@ -98,6 +99,11 @@ h2 {
 }
 .about {
   transition-delay: 0.4s;
+  padding: 40px 80px 80px 80px;
+}
+.about h1 {
+  margin-bottom: 35px;
+  text-decoration: underline #47b2e4;
 }
 .about p {
   font-size: 18px;
